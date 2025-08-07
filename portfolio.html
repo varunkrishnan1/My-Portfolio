@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK - Vibe Koder</title>
+    <meta name="description" content="Professional portfolio of Varun Krishnan, Full Stack Developer specializing in modern web technologies">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+   
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img style="width: 90px;height: 90px;" src="assets/Fashion-Brand-Logo---Lettermark-VK--Photoroom.png" alt="Varun Krishnan Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                        <h1><span class="hero-prefix">I'm </span>Varun Krishnan</h1>
+                        <p class="lead">Full Stack Developer</p>
+                        <p class="description">Hey there! I'm Varun, a developer who loves developing mobile applications and web applications. I've been coding for about 3 years now and really enjoy working with HTML, CSS, and modern web technologies. When I'm not coding, you'll probably find me exploring new frameworks or contributing to open source projects.</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">Check Out My Work</a>
+                            <a href="#contact" class="btn-outline">Say Hello</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="hero-avatar" data-aos="fade-left" data-aos-delay="400">
+                        <div style="width: 300px; height: 300px; background: white; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; border: 4px solid #ffa07a; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); overflow: hidden;">
+                            <img src="assets/My-Photo.jpg" alt="Varun Krishnan" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" style="background: linear-gradient(135deg, rgba(255, 160, 122, 0.05) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 160, 122, 0.05) 100%);">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">A bit about my journey and what I'm passionate about</p>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="glass-card p-4" style="border-left: 4px solid #ffa07a;">
+                        <h3 style="color: #ffa07a; margin-bottom: 1.5rem;">Hi, I'm Varun</h3>
+                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">I started coding back in college when I took a random computer science class. What began as a curiosity quickly turned into an obsession. I love the problem-solving aspect of programming and the satisfaction of building something from scratch.</p>
+                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">Over the past few years, I've worked on everything from small personal projects to larger web applications. I'm always eager to learn new technologies and improve my skills. Currently, I'm really into React and Node.js, but I also enjoy experimenting with Python and cloud technologies.</p>
+                        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 0;">I'm passionate about creating user-friendly applications that solve real-world problems. Whether it's developing mobile apps with React Native and Flutter or building robust web platforms with modern technologies, I focus on delivering quality solutions that make a difference.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="glass-card p-4" style="background: linear-gradient(135deg, rgba(255, 160, 122, 0.1) 0%, rgba(255, 255, 255, 0.9) 100%);">
+                        <h4 style="color: #1a1a1a; margin-bottom: 2rem; font-size: 1.5rem; font-weight: 600;">What I Focus On</h4>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled" style="margin-bottom: 0;">
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> Writing clean code</li>
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> Learning new technologies</li>
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> Problem solving</li>
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> Open source contributions</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled" style="margin-bottom: 0;">
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> User experience focus</li>
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> Responsive design</li>
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> Team collaboration</li>
+                                    <li style="margin-bottom: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 160, 122, 0.2);"><i class="fas fa-check" style="color: #ffa07a; margin-right: 0.75rem; width: 20px;"></i> Continuous improvement</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What I Work With</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Technologies and tools I use to build things</p>
+            <div class="row g-3">
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <h5>HTML</h5>
+                        <p>Semantic markup & structure</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <h5>CSS</h5>
+                        <p>Responsive design & styling</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-item">
+                        <i class="fab fa-js-square"></i>
+                        <h5>JavaScript</h5>
+                        <p>ES6+, Modern web development</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <h5>Bootstrap</h5>
+                        <p>Rapid UI development</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <h5>React.js</h5>
+                        <p>Interactive user interfaces</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="700">
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <h5>React Native</h5>
+                        <p>Cross-platform mobile apps</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="800">
+                    <div class="skill-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h5>Flutter</h5>
+                        <p>Mobile app development</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="900">
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <h5>Node.js</h5>
+                        <p>Server-side JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="skill-item">
+                        <i class="fas fa-server"></i>
+                        <h5>Express.js</h5>
+                        <p>Web application framework</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="skill-item">
+                        <i class="fas fa-leaf"></i>
+                        <h5>MongoDB</h5>
+                        <p>NoSQL database</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <h5>MySQL</h5>
+                        <p>Relational database</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="skill-item">
+                        <i class="fas fa-cloud"></i>
+                        <h5>Supabase</h5>
+                        <p>Backend as a service</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <h5>Git & GitHub</h5>
+                        <p>Version control & collaboration</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1500">
+                    <div class="skill-item">
+                        <i class="fas fa-chart-bar"></i>
+                        <h5>Power BI</h5>
+                        <p>Data visualization & analytics</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1600">
+                    <div class="skill-item">
+                        <i class="fas fa-brain"></i>
+                        <h5>AI Integration</h5>
+                        <p>Machine learning & APIs</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="1700">
+                    <div class="skill-item">
+                        <i class="fas fa-bullhorn"></i>
+                        <h5>Digital Marketing</h5>
+                        <p>Online marketing & campaigns</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" style="background: linear-gradient(135deg, rgba(255, 160, 122, 0.03) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 160, 122, 0.03) 100%);">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Some things I've built recently</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="modern-project-card">
+                        <div class="project-image-wrapper">
+                            <img src="assets/Picsart_25-08-07_19-11-01-799.jpg" alt="Pluto AI Logo" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Pluto AI</h5>
+                            <p class="project-description">Open-source mobile application powered by AI with features like live chat, image/video generation, avatar conversations, and code generation.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag react"><i class="fab fa-react"></i>React Native</span>
+                                <span class="tech-tag expo"><i class="fas fa-mobile-alt"></i>Expo</span>
+                                <span class="tech-tag supabase"><i class="fas fa-cloud"></i>Supabase</span>
+                                <span class="tech-tag ai"><i class="fas fa-brain"></i>AI</span>
+                            </div>
+                            <div class="project-buttons" style="margin-top: 1.5rem;">
+                                <a href="https://github.com/varunkrishnan1/Pluto-Ai.git" target="_blank" class="btn btn-sm" style="background: #ffa07a; color: white; margin-right: 0.75rem; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px;"><i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="modern-project-card">
+                        <div class="project-image-wrapper">
+                            <img src="assets/Screenshot-2025-08-07-at-7.26.51-PM.png" alt="AI World Screenshot" class="project-img" style="background: #8b5cf6;">
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">AI World</h5>
+                            <p class="project-description">AI-powered marketing platform for tracking markets, finding selling platforms, connecting with influencers, and generating product images.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag php"><i class="fab fa-php"></i>PHP</span>
+                                <span class="tech-tag mysql"><i class="fas fa-database"></i>MySQL</span>
+                                <span class="tech-tag html"><i class="fab fa-html5"></i>HTML</span>
+                                <span class="tech-tag css"><i class="fab fa-css3-alt"></i>CSS</span>
+                            </div>
+                            <div class="project-buttons" style="margin-top: 1.5rem;">
+                                <a href="https://github.com/varunkrishnan1/Ai-World.git" target="_blank" class="btn btn-sm" style="background: #ffa07a; color: white; margin-right: 0.75rem; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px;"><i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Feel free to reach out if you want to chat about projects or just say hi!</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <h6>Email</h6>
+                                        <p><a href="/cdn-cgi/l/email-protection#2e455c475d46404f40584f5c5b401c1f176e49434f4742004d4143"><span class="__cf_email__" data-cfemail="68031a011b000609061e091a1d065a5951280f05090104460b0705">krishnanvarun219@gmail.com</span></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <i class="fab fa-linkedin"></i>
+                                    <div>
+                                        <h6>LinkedIn</h6>
+                                        <p><a href="https://www.linkedin.com/in/varun--krishnan/" target="_blank">linkedin.com/in/varun--krishnan</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <i class="fab fa-github"></i>
+                                    <div>
+                                        <h6>GitHub</h6>
+                                        <p><a href="https://github.com/varunkrishnan1" target="_blank">github.com/varunkrishnan1</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <h6>Location</h6>
+                                        <p>Alappuzha, Kerala</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-5">
+                            <h5>Let's build something together!</h5>
+                            <p>Whether you have a project idea, want to collaborate, or just want to chat about tech, I'd love to hear from you. I'm always open to new opportunities and interesting conversations.</p>
+                            <div class="mt-4">
+                                <a href="/cdn-cgi/l/email-protection#0f647d667c67616e61796e7d7a613d3e364f68626e6663216c6062" class="btn btn-primary me-3">Send Email</a>
+                                <a href="#" class="btn btn-outline-primary">View Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="social-links mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <a href="https://github.com/varunkrishnan1" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/varun--krishnan/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="/cdn-cgi/l/email-protection#39524b504a515758574f584b4c570b0800795e54585055175a5654" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="200">&copy; 2025 Varun Krishnan. Thanks for stopping by!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (only for navbar toggle - no custom JavaScript) -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        });
+    </script>
+</body>
+</html>
